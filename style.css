@@ -262,7 +262,7 @@ textarea {
 
 /* =Content
 ----------------------------------------------- */
-.navbar.prestro-navbar{font-family: "Montserrat"}
+.navbar.prestro-navbar{font-family: "Montserrat"; color : yellow;}
 .sticky {
 }
 .hentry {
@@ -288,6 +288,7 @@ textarea {
 }
 #content {
     margin-bottom: 40px;
+    margin-top: 70px;
 }
 .free-quote h3,.free-quote a{
     margin: 0;
@@ -580,7 +581,7 @@ body.home .navbar.prestro-navbar{background: rgba(0,0,0,0.6)}
     line-height: 25px;
 }
 .navbar > .container .navbar-brand {
-    color: #007cb5;
+    color: lime; /*#007cb5*/
     font-size: 24px;
     margin: 3px 0;
 }
@@ -598,7 +599,7 @@ body.home .navbar.prestro-navbar{background: rgba(0,0,0,0.6)}
 }
 .main-nav .prestro-nav > li > a:focus, .main-nav .prestro-nav > li > a:hover, .main-nav .prestro-nav > li > a:active , .main-nav .prestro-nav > li.current-menu-item a{
     background: transparent !important;
-    color: #FFFFFF;
+    color: lime; /*#FFFFFF*/
 }
 .current-menu-ancestor > a{color: #FFFFFF !important;}
 .main-nav li > .sub-menu li{
